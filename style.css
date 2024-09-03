@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: burlywood;
+    color:rgb(21, 21, 183);
+    font-size: 2rem;
+    height:5rem;
+    padding:2rem;
+    text-align: center;
+}
+
+.choices{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.2rem;
+    margin-top:3rem;
+
+}
+.choice{
+    height:165px;
+    width:165px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover{
+    cursor:pointer;
+    background: #000;
+    border-radius: 50%;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.scorecard{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:7rem;
+    margin-top:3rem;
+}
+#unum{
+    font-size: 2.2rem;
+}
+#cnum{
+    font-size: 2.2rem;
+}
+
+.msgcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3rem;
+}
+#msg{
+    font-size:2rem;
+    padding:1rem;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
